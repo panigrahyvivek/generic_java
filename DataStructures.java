@@ -9,8 +9,7 @@ import java.util.TreeSet;
 
 public class DataStructures{
 	
-	
-	public static void main(String args[]) {
+	public void showArrayList() {
 		// ArrayList
 		System.out.println("------------Start of ArrayList");
 		ArrayList<Integer> al = new ArrayList<Integer>();
@@ -20,8 +19,9 @@ public class DataStructures{
 
 		System.out.println(al.get(1));
 		System.out.println("--------------End of ArrayList");
-		
-		
+	}
+	
+	public void showLinkedList() {
 		//LinkedList
 		System.out.println("---------------Start of LinkedList");
 		LinkedList<String> ll = new LinkedList<String>();
@@ -33,7 +33,9 @@ public class DataStructures{
 		
 		System.out.println(ll.get(1));
 		System.out.println("-----------------End of LinkedList");
-		
+	}
+	
+	public void showHashMap() {
 		//HashMap
 		System.out.println("-----------------Start of HashMap");
 		
@@ -47,26 +49,25 @@ public class DataStructures{
 		
 		
 		System.out.println("-----------------End of HashMap");
-		
-		
+	}
+	
+	public void showTreeeMap() {
 		//TreeMap
 		System.out.println("---------------Start of TreeMap");
-			
+		
 		TreeMap<Integer,String> tm = new TreeMap();
 			
 		tm.put(2, "Vivek2");
 		tm.put(1, "Vivek1");
 		tm.put(3, "Vivek3");
 		
-				
 		System.out.println(tm);
-				
-				
 		System.out.println("-------------End of TreeMap");
-		
-		
+				
+	}
+	
+	public void showHashSet() {
 		//HashSet
-		
 		System.out.println("-------------Start of HashSet");
 		Set<String> hashset = new HashSet<String>();
 		
@@ -79,9 +80,10 @@ public class DataStructures{
 		
 		
 		System.out.println("---------------End of HashSet");
-		
+	}
+	
+	public void showTreeSet() {
 		//TreeSet
-		
 		System.out.println("---------------Start of TreeSet");
 		Set<String> treeset = new TreeSet<String>();
 			
@@ -96,6 +98,9 @@ public class DataStructures{
 		System.out.println("---------------End of TreeSet");
 		
 		
+	}
+	
+	public void showSetOpeartions() {
 		//Set Operations
 		System.out.println("---------------Start of Set Operations");
 		Set<Integer> a = new HashSet<Integer>();
@@ -121,5 +126,7 @@ public class DataStructures{
         System.out.print("Difference of the two Set");
         System.out.println(difference);
         System.out.println("---------------End of Set Operations");
+
 	}
+	
 }

@@ -1,3 +1,4 @@
+
 public class Singleton
 {
     // static variable single_instance of type Singleton
