@@ -1,4 +1,6 @@
-public class Main{
+package com.vivek.genericjava;
+
+public class App{
   public static void main(String[] args) {
     
 	//Hello World  

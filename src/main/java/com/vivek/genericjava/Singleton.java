@@ -1,3 +1,4 @@
+package com.vivek.genericjava;
 
 public class Singleton
 {
