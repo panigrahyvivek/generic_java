@@ -1,5 +1,7 @@
 package com.vivek.genericjava;
 
+import com.vivek.genericjava.oops.ChildClass;
+
 public class App{
   public static void main(String[] args) {
     
@@ -25,6 +27,25 @@ public class App{
 	d.showTreeSet();
 	d.showHashMap();
 	d.showTreeeMap();
+	
+	
+	//staticvariable
+	
+	System.out.println(staticvariable.var1); // Accessing Static variable without Instantiating
+	staticvariable obj = new staticvariable(); 
+	System.out.println(obj.var2); 
+	System.out.println(obj.getVar3()); 
+	
+	obj.var1 = "New Static String";
+	System.out.println(staticvariable.var1);
+	
+	
+	//Inheritence
+	
+	ChildClass c = new ChildClass();
+	c.disp();
+	
+	
 	
   }
 }

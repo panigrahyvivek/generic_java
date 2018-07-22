@@ -1,0 +1,9 @@
+---
+VM version: Sep 22 2017 15:52:27 - 81_REL - optU - windows amd64 - 6 - bas2:294579 (mixed mode)
+
+Time:2018-07-1110:35:01
+Pid: 17704
+Hostname: PHLN00650637A
+current dir: C:\Users\i077837\git\generic_java
+---
+   :    [12156] 10:35:01 ***ERROR (:0): Java assert: Assertion in junit.framework.Assert.fail(Assert.java:55)
